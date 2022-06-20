@@ -1,0 +1,28 @@
+.form {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 20px;
+    padding: 15px 20px;
+}
+
+.form__input {
+    padding: 10px;
+    border: 1px;
+    border-radius: 1px;
+}
+
+.form__button{
+    border: none;
+    background-color: hsl(231, 92%, 58%);
+    color: white;
+    padding: 5px;
+    border-radius: 1px;
+}
+
+.form__button:hover {
+    background-color: hsl(231, 90%, 40%);
+}
+
+.form__button:active {
+    background-color: hsl(244, 93%, 22%);
+}

@@ -1,0 +1,21 @@
+.section__headline {
+    max-width: 900px;
+    padding: 1px;
+    margin: 1px auto;
+}
+
+.section {
+    max-width: 900px;
+    padding: 10px;
+    margin: 5px auto;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(36, 34, 34, 0.075);
+} 
+
+.section__header {
+    margin: auto;
+    max-width: 900px;
+    padding: 10px;
+    border-bottom: 4px solid rgb(222, 228, 226);
+}
+
