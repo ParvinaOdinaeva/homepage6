@@ -69,15 +69,24 @@
 
   };
 
+  // - fukcja dodawania nowych zadań do listy poprzez push
+  const addNewTask = (newInputContent) => {
+    tasks.push({ 
+      content: newInputContent,
+    });
+    render();
+  };
+
   // 3 krok - deklaracja (stworzenie) funckji onFromSubmit poprzez:
   // - blokadę wysyłkę formularza
-  // - pobranie wartości pola formularza poprzez złapanie js-input za pomocą stałej newInputContent 
+  // - pobranie wartości pola formularza (input) poprzez złapanie js-input za pomocą stałej newInputContent 
   // (value - wartość, trim() - usunięcie białych znaków z obu stron)
+  // - wychodzimy z pola jeśli tekst jest pusty (return;) lub dodajemy do listy nowe zadanie za pomocą addNewTask
   const onFromSubmit = (event) => {
     event.preventDefault();
     const newInputContent = document.querySelector(".js-input").value.trim();
     if (newInputContent === "") {
-      return; // wychodzimy z pola, jesli tekst jest pusty
+      return; 
     }
     addNewTask(newInputContent);
   }
