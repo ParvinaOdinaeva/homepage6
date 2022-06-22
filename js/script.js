@@ -13,15 +13,6 @@
   ];
 
 
-  // - pole jest wypełnione = wpisujemy/dodajemy nowe zadanie do listy poprzez push
-  const addNewTask = (newInputContent) => {
-    tasks.push({ 
-      content: newInputContent,
-    });
-    render();
-  };
-
-
   // - zaprzeczamy dodaniu nowego zadania (do właściwości done dodajemy przciwieństwo właściwości done z !)
   const doneTask = (index) => {
     tasks[index].done = !tasks[index].done; 
