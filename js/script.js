@@ -37,9 +37,9 @@
       htmlString += ` 
       <li${list.done ? " style=\"text-decoration: line-through\"" : ""}> 
       <button class="js-done">Done?</button>
+      ${list.content} 
       <button class="js-delete">Delete</button>
-    ${list.content} 
-    </li>
+        </li>
     `;
     }
     document.querySelector(".js-list").innerHTML = htmlString;
