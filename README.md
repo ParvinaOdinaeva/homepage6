@@ -2,4 +2,6 @@
 ### Demo
 <a rel="noreferrer noopener" target="_blank" href="https://parvinaodinaeva.github.io/homepage6/" title="homepage 6">Homepage 6</a>
 #### Technologies used
-[HTML, CSS (Grid, Media Quiries), JavaScript functions]
+HTML
+CSS (Grid, Media Quiries)
+JavaScript functions]
