@@ -23,10 +23,12 @@
     color: white;
     padding: 10px;
     cursor: pointer;
+    transition: transform 3s linear;
 }
 
 .form__button:hover {
     background-color: hsl(180, 100%, 40%);
+    transform: scale(1.2);
 }
 
 .form__button:active {

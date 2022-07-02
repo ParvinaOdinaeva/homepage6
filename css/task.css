@@ -19,6 +19,7 @@
 
 .tasks__button {
     border: none;
+    border-radius: 5px;
     color: white;
     width: 30PX;
     height: 30px;
@@ -28,24 +29,28 @@
 
 .task__button--toggleDone {
     background-color: hsl(120, 61%, 34%);
+    transition: transform 3s linear;
 }
 
-.task__button--toggleDone.hover {
+.task__button--toggleDone:hover {
     background-color: hsl(120, 61%, 39%);
+    transform: scale(1.4);
 }
 
-.task__button--toggleDone.active {
+.task__button--toggleDone:active {
     background-color: hsl(120, 61%, 44%);
 }
 
 .task__button--remove {
     background-color: hsl(315, 83%, 47%);
+    transition: transform 3s linear;
 }
 
-.task__button--remove.hover {
+.task__button--remove:hover {
     background-color: hsl(315, 83%, 52%);
+    transform: scale(1.4);
 }
 
-.task__button--remove.active {
+.task__button--remove:active {
     background-color: hsl(323, 83%, 57%);
 }
