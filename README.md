@@ -4,4 +4,4 @@
 #### Technologies used
 HTML
 CSS (Grid, Media Quiries)
-JavaScript functions]
+JavaScript functions
