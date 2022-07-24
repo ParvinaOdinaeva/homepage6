@@ -16,6 +16,7 @@
     render();
   };
 
+  
   const bindRemoveEvents = () => { 
     const removeButtons = document.querySelectorAll(".js-remove");
     removeButtons.forEach((removeButton, taskIndex) => {
@@ -24,6 +25,7 @@
       });
     });
   };
+
 
   const bindToggleDoneEvents = () => {
     const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
